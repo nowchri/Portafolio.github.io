@@ -9,6 +9,17 @@ html{
     /*Se puede deslizar cuando se da clics en los links*/
     scroll-behavior: smooth;
 }
+/*Menu*/@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*Se puede deslizar cuando se da clics en los links*/
+    scroll-behavior: smooth;
+}
 /*Menu*/
 .contenedor_header{
     background: #1e2326;
