@@ -274,21 +274,21 @@ html{
     font-size: 14px;
 }
 /* esto se añadia de forma dinamica dentro de java script*/
-.skills .skill .javascript{
+.skills .skill .adobepremiere{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s adobepremiere forwards;
 }
-@keyframes javascript{
+@keyframes adobepremiere{
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 80%;}
 }
-.skills .skill .htmlcss{
+.skills .skill .aftereffects{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s aftereffects forwards;
 }
-@keyframes htmlcss{
+@keyframes aftereffects{
     0%{width: 0%;}
-    100%{width: 67%;}
+    100%{width: 65%;}
 }
 /*/////////////*/
 .skills .skill .photoshop{
@@ -309,22 +309,22 @@ html{
     100%{width: 70%;}
 }
 /*/////////////*/
-.skills .skill .php{
+.skills .skill .capcut{
     width: 0%;
-    animation: 2s php forwards;
+    animation: 2s capcut forwards;
 }
-@keyframes php{
+@keyframes capcut{
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
 }
 /*/////////////*/
-.skills .skill .csharp{
+.skills .skill .canva{
     width: 0%;
-    animation: 2s csharp forwards;
+    animation: 2s canva forwards;
 }
-@keyframes csharp{
+@keyframes canva{
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 85%;}
 }
 /*/////////////*/
 .skills .skill .comunicacion{
@@ -333,7 +333,7 @@ html{
 }
 @keyframes comunicacion{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
 /*/////////////*/
 .skills .skill .trabajo{
@@ -371,7 +371,15 @@ html{
     0%{width: 0%;}
     100%{width: 75%;}
 }
-
+/*/////////////*/
+.skills .skill .edicion{
+    width: 0%;
+    animation: 2s edicion forwards;
+}
+@keyframes edicion{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
 /*SECCION C U R R I C U L U M */
 .curriculum{
     background-color: #1e2326;
@@ -509,13 +517,14 @@ html{
     width: 100%;
     display: block;
 }
-.portafolio .galeria .proyecto .overlay{
+
+.portafolio .galeria .proyecto .overlay {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8),rgba(28,182,152,.8));
+    background: linear-gradient(rgba(14, 69, 58, 0.8),rgba(21, 120, 100, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,6 +533,14 @@ html{
     letter-spacing: 3px;
     opacity: 0;
 }
+a{
+    color: #fbff00;
+    text-decoration: none;
+    font-family: 68px;
+    border-color: #131517;
+    border-width: 100px;
+}
+
 .portafolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
     transition: 1s;
